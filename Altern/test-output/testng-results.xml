@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-21T15:52:22 IST" name="Default suite" finished-at="2021-12-21T15:52:50 IST" duration-ms="27729">
+    <groups>
+    </groups>
+    <test started-at="2021-12-21T15:52:22 IST" name="Default test" finished-at="2021-12-21T15:52:50 IST" duration-ms="27729">
+      <class name="Scripts.News18Home">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.News18Home@6bedbc4d]" started-at="2021-12-21T15:52:23 IST" name="openApp" finished-at="2021-12-21T15:52:42 IST" duration-ms="19672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="home_Test()[pri:0, instance:Scripts.News18Home@6bedbc4d]" started-at="2021-12-21T15:52:42 IST" name="home_Test" finished-at="2021-12-21T15:52:49 IST" duration-ms="6995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_Test -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.News18Home@6bedbc4d]" started-at="2021-12-21T15:52:49 IST" name="closeApp" finished-at="2021-12-21T15:52:50 IST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home_Test status=SUCCESS method=News18Home.home_Test()[pri:0, instance:Scripts.News18Home@6bedbc4d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Scripts.News18Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
